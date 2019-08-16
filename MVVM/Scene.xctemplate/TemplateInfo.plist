@@ -96,6 +96,34 @@
 				<string>UIViewController</string>
 			</array>
 		</dict>
+		<dict>
+			<key>Default</key>
+			<string>false</string>
+			<key>Description</key>
+			<string>Should create api client?</string>
+			<key>Identifier</key>
+			<string>WithApiClient</string>
+			<key>Name</key>
+			<string>Also create API Client</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___ApiClient</string>
+			<key>Description</key>
+			<string>The api client name</string>
+			<key>Identifier</key>
+			<string>apiClientName</string>
+			<key>Name</key>
+			<string>API Client Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
 	</array>
 	<key>Platforms</key>
 	<array>
