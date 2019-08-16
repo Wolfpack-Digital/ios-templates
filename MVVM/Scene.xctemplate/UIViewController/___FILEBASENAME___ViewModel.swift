@@ -24,8 +24,13 @@ class ___VARIABLE_sceneName___ViewModel {
     
     // MARK: - Properties
     
-    //var worker: ___VARIABLE_sceneName___Worker?
+    private let repository: ___VARIABLE_sceneName___Repository
     
+    // MARK: - Init
+    
+    init(repository: ___VARIABLE_sceneName___Repository = ___VARIABLE_sceneName___RepositoryImpl()) {
+        self.repository = repository
+    }
     
     // MARK: - Actions
     

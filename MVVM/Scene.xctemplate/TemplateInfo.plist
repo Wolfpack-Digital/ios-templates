@@ -62,6 +62,20 @@
 		</dict>
 		<dict>
 			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___Repository</string>
+			<key>Description</key>
+			<string>The repository name</string>
+			<key>Identifier</key>
+			<string>repositoryName</string>
+			<key>Name</key>
+			<string>Repository Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
 			<string>UIViewController</string>
 			<key>Description</key>
 			<string>What view controller class to subclass for the new scene</string>
